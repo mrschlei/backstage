@@ -1,0 +1,5 @@
+; $Id: dmca_updater.info,v 1.1 2012/10 19:57:41 mrschlei Exp $
+name = Archive Before Feed Import
+description = Save a backup copy of a View's HTML before updating all the content types, dammit.
+core = 7.x
+files[] = archive_before_feed_import.module

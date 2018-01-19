@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset="windows-1252">
+<TITLE>Report part no.1</TITLE>
+<style>
+body {font-family:Verdana,sans-serif,Arial;font-size:8pt;text-align:left;background-image: url(bg_top.gif); background-repeat: repeat-x}
+a:link {color: #456A9A; font-family: Verdana, Tahoma, Arial; text-decoration: none;}
+a {color: #456A9A; font-family: Verdana, Tahoma, Arial; text-decoration: none;}
+a:visited { color: #456A9A; font-family: Verdana, Tahoma, Arial; text-decoration: none;}
+a:active { color: #456A9A; font-family: Verdana, Tahoma, Arial; text-decoration: underline;}
+a:hover {color: #456A9A; font-family: Verdana, Tahoma, Arial; text-decoration: underline;}
+TD {font-size: 70%; color: #565656; font-family: Verdana, Tahoma, Arial;}
+</style>
+</HEAD>
+<BODY LEFTMARGIN="0" TOPMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" BGCOLOR="#FFFFFF">
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%"><TR VALIGN="TOP">
+<TD ALIGN="CENTER" WIDTH="1%"><IMG SRC="spacer.gif" WIDTH="1" HEIGHT="196"></TD>
+<TD ALIGN="CENTER" WIDTH="99%"><IMG SRC="spacer.gif" WIDTH="1" HEIGHT="50"><BR><A HREF="http://www.alterwind.com/loganalyzer/log-analyzer-lite.html"><IMG SRC="logo.gif" WIDTH="228" HEIGHT="116" BORDER="0" ALT="AlterWind Log Analyzer Lite. Free log analyzer."></A></TD>
+</TR></TABLE>
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%"><TR VALIGN="TOP">
+<TD WIDTH="1%"><IMG SRC="spacer.gif" WIDTH="35" HEIGHT="1"><TD>
+<TD WIDTH="99%"><script src="Tree.js"></script>
+<script>
+foldersTree = gFld("Log Analyzer Reports")
+aux1 = insFld(foldersTree, gFld("General Statistics", "General.html"))
+aux2 = insDoc(aux1, gLnk(0, "Summary", "General.html"))
+aux1 = insFld(foldersTree, gFld("Activity Statistics", "ActivityDaily.html"))
+aux2 = insDoc(aux1, gLnk(0, "Daily", "ActivityDaily.html"))
+aux2 = insDoc(aux1, gLnk(0, "Average by Hour of Day", "ActivityByHourOfDay.html"))
+aux2 = insDoc(aux1, gLnk(0, "Average by Day of Week", "ActivityByDayOfWeek.html"))
+aux2 = insDoc(aux1, gLnk(0, "Average by Month", "ActivityByMonth.html"))
+aux1 = insFld(foldersTree, gFld("Access Statistics", "Pages.html"))
+aux2 = insDoc(aux1, gLnk(0, "Pages", "Pages.html"))
+aux2 = insDoc(aux1, gLnk(0, "Entry Pages", "PagesEntry.html"))
+aux2 = insDoc(aux1, gLnk(0, "Exit Pages", "PagesExit.html"))
+aux2 = insDoc(aux1, gLnk(0, "Single Viewing", "PagesSingle.html"))
+aux2 = insDoc(aux1, gLnk(0, "Images", "Images.html"))
+aux2 = insDoc(aux1, gLnk(0, "Files", "Files.html"))
+aux2 = insDoc(aux1, gLnk(0, "Directories", "Directories.html"))
+aux2 = insDoc(aux1, gLnk(0, "File Types", "Types.html"))
+aux1 = insFld(foldersTree, gFld("Visitors", "Hosts.html"))
+aux2 = insDoc(aux1, gLnk(0, "Hosts", "Hosts.html"))
+aux1 = insFld(foldersTree, gFld("Referrers", "SummaryByReferrers.html"))
+aux2 = insDoc(aux1, gLnk(0, "Summary by Referrers", "SummaryByReferrers.html"))
+aux2 = insDoc(aux1, gLnk(0, "Referring Sites", ""))
+aux2 = insDoc(aux1, gLnk(0, "Referring URLs", ""))
+aux2 = insDoc(aux1, gLnk(0, "Search Engines", ""))
+aux2 = insDoc(aux1, gLnk(0, "Search Phrases", ""))
+aux1 = insFld(foldersTree, gFld("Browsers and Platforms", ""))
+aux2 = insDoc(aux1, gLnk(0, "Browsers", ""))
+aux2 = insDoc(aux1, gLnk(0, "Operating Systems", ""))
+aux1 = insFld(foldersTree, gFld("Errors", "404Errors.html"))
+aux2 = insDoc(aux1, gLnk(0, "404 Errors", "404Errors.html"))
+aux2 = insDoc(aux1, gLnk(0, "Other Errors", "Errors.html"))
+aux1 = insFld(foldersTree, gFld("More reports", "http://www.alterwind.com/loganalyzer/log-analyzers-comparison.html"))
+
+aux1 = insFld(foldersTree, gFld("Get Advanced Reports", "log-analyzers-comparison.html"))
+initializeDocument()</script>
+<noscript>
+<h4>Log Analyzer Reports</h4>
+<h5>General Statistics</h5>
+<a href="General.html" target="Main">Summary</a><br>
+<h5>Activity Statistics</h5>
+<a href="ActivityDaily.html" target="Main">Daily</a><br>
+<a href="ActivityByHourOfDay.html" target="Main">Average by Hour of Day</a><br>
+<a href="ActivityByDayOfWeek.html" target="Main">Average by Day of Week</a><br>
+<a href="ActivityByMonth.html" target="Main">Average by Month</a><br>
+<h5>Access Statistics</h5>
+<a href="Pages.html" target="Main">Pages</a><br>
+<a href="PagesEntry.html" target="Main">Entry Pages</a><br>
+<a href="PagesExit.html" target="Main">Exit Pages</a><br>
+<a href="PagesSingle.html" target="Main">Single Viewing</a><br>
+<a href="Images.html" target="Main">Images</a><br>
+<a href="Files.html" target="Main">Files</a><br>
+<a href="Directories.html" target="Main">Directories</a><br>
+<a href="Types.html" target="Main">File Types</a><br>
+<h5>Visitors</h5>
+<a href="Hosts.html" target="Main">Hosts</a><br>
+<h5>Referrers</h5>
+<a href="SummaryByReferrers.html" target="Main">Summary by Referrers</a><br>
+Referring Sites<br>
+Referring URLs<br>
+Search Engines<br>
+Search Phrases<br>
+<h5>Browsers and Platforms</h5>
+Browsers<br>
+Operating Systems<br>
+<h5>Errors</h5>
+<a href="404Errors.html" target="Main">404 Errors</a><br>
+<a href="Errors.html" target="Main">Other Errors</a><br>
+<h5><a href="http://www.alterwind.com/loganalyzer/log-analyzers-comparison.html" target="_blank">More reports</a></h5>
+
+<h5><a href="log-analyzers-comparison.html" target="Main">Get Advanced Reports</a></h5><br>
+</noscript>
+<p align=center><a href="http://www.alterwind.com/">Web statistics</a> generated by
+<a href="http://www.alterwind.com/loganalyzer/">AlterWind Log Analyzer</a></p>
+</TD>
+</TR></TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,41 @@
+<?php
+
+//function archive_before_feed_import_feeds_before_import(FeedsSource $source) {
+//	if (isset($source->id)) {
+//		if ($source->id == "its_project_status_dashboard") {}	
+			
+//			$view = views_get_view('its_project_status_thing');
+//			$view->execute();
+//			$objects = $view->result;
+			
+//			$test = $view->render();
+			
+			//alright, get the project status view HTML, grab the first/only H2, save it as the month
+			//and also save all the HTML from the view and archive it, in theory
+//			$doc = new DOMDocument();
+//			$doc->loadHTML($test);
+//			$doc->saveHTML();
+			
+//			$divs = $doc->getElementsByTagName('h2');
+
+//			foreach ($divs as $div) {
+//				$monthheader = $div->nodeValue;
+//			}
+
+
+//$time=strtotime($monthheader);
+//$filename=date("Y-m",$time).".txt";
+
+
+//$file = '/afs/umich.edu/group/b/backsdru/Public/html/sites/default/files/project-status-archive/'.$filename;
+// Open the file to get existing content
+//$current = file_get_contents($file);
+// Append a new person to the file
+// Write the contents back to the file
+//file_put_contents($file, $test);
+
+			//mail("mrschlei@umich.edu","a view, perhaps",wordwrap($test, 70, "\r\n"));
+//	}
+//}
+
+?>

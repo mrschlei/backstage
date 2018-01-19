@@ -1,0 +1,276 @@
+td {
+	font-size:small;
+	font-family:Arial,Helvetica,sans-serif;
+	color:#003366;
+	line-height:175%;
+}
+
+#pageRight {
+	float:right;
+	margin:0 0 30px 30px;
+}
+
+hr {
+	clear:both;
+	margin:30px 0 30px 0;
+	height:0;
+	border:0;
+	border-top:1px solid #cccccc;
+}
+
+form {
+	margin:0;
+}
+input, select, textarea {
+	font-size:small;
+	font-family:Arial,Helvetica,sans-serif;
+	color:#000000;
+}
+
+ul {
+	list-style-type:square;
+}
+ul ul {
+	list-style-type:disc;
+}
+
+.q {
+	font-weight:bold;
+}
+
+a {
+/*	text-decoration:none;*/
+}
+a:link {
+/*	color:#005596;*/
+	color:#0000ff;
+}
+a:visited {
+	color:#9933cc;
+}
+a:hover {
+	color:#cc3300;
+}
+a:active {
+	color:#cc9933;
+}
+
+.smallText {
+	font-size:11px;
+	font-weight:normal;
+	line-height:normal;
+}
+
+.clear {
+	clear:both;
+}
+
+.section {
+	margin:0 0 0 20px;
+	padding:0;
+	list-style-type:none;
+}
+
+a, a img {
+	border:0;
+	outline:0;
+}
+
+a.jumpLink {
+	text-decoration:none;
+	color:#0000ff;
+}
+a.jumpLink:visited {
+	color:#005596;
+}
+a.jumpLink:hover {
+	text-decoration:underline;
+	color:#cc3300;
+}
+a.jumpLink:active {
+	color:#cc9933;
+}
+
+.current {
+	color:#cc3300;
+}
+
+#issues {
+	border-collapse:collapse;
+}
+#issues th {
+	text-align:left;
+	white-space:nowrap;
+	padding:3px 6px 3px 6px;
+	border-bottom:1px solid #cccccc;
+	background:#ebebeb;
+}
+#issues td {
+	text-align:left;
+	white-space:nowrap;
+	padding:3px 6px 3px 6px;
+	border-bottom:1px solid #cccccc;
+/*	vertical-align:top;*/
+}
+#issues td.story {
+	padding-left:18px;
+	white-space:normal;
+/*	line-height:150%;*/
+}
+#issues td.story a {
+	display:block;
+	text-decoration:none;
+	line-height:normal;
+}
+#issues td.story a:link {
+	color:#336699;
+}
+#issues td.story a:visited {
+/*	color:#9933cc;*/
+	color:#336699;
+}
+#issues td.story a:hover {
+	color:#cc3300;
+}
+#issues td.story a:active {
+	color:#cc9933;
+}
+
+#icons {
+/*	float:right;*/
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+#icons th {
+	text-align:left;
+	padding:2px 6px 2px 6px;
+	font-size:11px;
+}
+#icons td {
+	white-space:nowrap;
+	padding:2px 0 2px 6px;
+	font-size:11px;
+}
+
+#search th {
+	text-align:left;
+	white-space:nowrap;
+	padding:2px 6px 2px 6px;
+	border-bottom:1px solid #cccccc;
+	background:#ebebeb;
+}
+#search td {
+	text-align:left;
+	white-space:nowrap;
+	padding:2px 6px 2px 6px;
+	border-bottom:1px solid #cccccc;
+}
+
+.rowOn {
+	background:#ffffcc;
+}
+.rowOff {
+	background:#ffffff;
+}
+
+.locked {
+	font-size:15px;
+	color:#cc3300;
+	font-weight:bold;
+}
+
+.absmiddle {
+	vertical-align:middle;
+	margin-bottom:.25em;
+}
+
+/* NEWS@ PHOTO STYLES */
+
+.newsSidebar {
+	float:right;
+	width:200px;
+	padding:10px;
+	margin:0 0 20px 20px;
+}
+
+.newsPhotoCaption {
+	font-size:11px;
+	line-height:135%;
+	text-align:left;
+	vertical-align:top;
+}
+.newsPhotoInline {
+	margin:0 0 20px 0;
+	font-size:11px;
+	line-height:135%;
+	text-align:left;
+}
+.newsPhotoLeftInset {
+	float:left;
+	margin:10px 20px 20px 0;
+	font-size:11px;
+	line-height:135%;
+	text-align:left;
+}
+.newsPhotoLeftTop {
+	float:left;
+	margin:0 20px 20px 0;
+	font-size:11px;
+	line-height:135%;
+	text-align:left;
+}
+.newsPhotoRightInset {
+	float:right;
+	margin:10px 0 20px 20px;
+	font-size:11px;
+	line-height:135%;
+	text-align:left;
+}
+.newsPhotoRightTop {
+	float:right;
+	margin:0 0 20px 20px;
+	font-size:11px;
+	line-height:135%;
+	text-align:left;
+}
+
+.newsPhotoCaption img, .newsPhotoInline img, .newsPhotoLeftInset img, .newsPhotoLeftTop img, .newsPhotoRightInset img,  .newsPhotoRightTop img {
+	margin-bottom:5px;
+}
+
+.newsPhotoZoom {
+	display:inline-block;
+	padding:0 0 11px 0;
+	background:#ffffff url("/images/photo-zoom.png") right bottom no-repeat;
+}
+.newsPhotoZoom img {
+	margin-bottom:0;
+}
+
+.newsCalloutLeft {
+	float:left;
+	width:180px;
+	margin:10px 20px 10px 0;
+	padding:20px 10px 20px 10px;
+	border-top:2px dotted #cccccc;
+	border-bottom:2px dotted #cccccc;
+	font-size:14px;
+	font-weight:bold;
+	color:#006699;
+	line-height:200%;
+	text-align:left;
+}
+.newsCalloutRight {
+	float:right;
+	width:180px;
+	margin:10px 0 10px 20px;
+	padding:20px 10px 20px 10px;
+	border-top:2px dotted #cccccc;
+	border-bottom:2px dotted #cccccc;
+	font-size:14px;
+	font-weight:bold;
+	color:#006699;
+	line-height:200%;
+	text-align:left;
+}
+

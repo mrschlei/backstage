@@ -1,0 +1,148 @@
+
+body {
+	margin:30px;
+	font-size:small;
+	font-family:Arial,Helvetica,sans-serif;
+	color:#003366;
+	line-height:135%;
+}
+
+h1 {
+	font-size:145%;
+	color:#003366;
+	font-weight:bold;
+	line-height:normal;
+}
+h2 {
+	font-size:130%;
+	color:#003366;
+	font-weight:bold;
+	line-height:normal;
+}
+h3 {
+	font-size:115%;
+	color:#cc9933;
+	font-weight:bold;
+	line-height:normal;
+}
+h4 {
+	font-size:100%;
+	color:#336699;
+	font-weight:bold;
+	line-height:normal;
+}
+
+.az {
+	color:#999999;
+}
+.az .ltr {
+	padding:2px 4px;
+}
+.az a:link, .az a:visited {
+	color:#0000ff;
+	text-decoration:none;
+}
+.az a:hover {
+	color:#cc3300;
+	text-decoration:underline;
+}
+.az a:active {
+	color:#cc9933;
+	text-decoration:underline;
+}
+
+.filter {
+	font-size:11px;
+	font-weight:normal;
+}
+.filter a:link, .filter a:visited {
+	color:#0000ff;
+	text-decoration:none;
+}
+.filter a:hover {
+	color:#cc3300;
+	text-decoration:underline;
+}
+.filter a:active {
+	color:#cc9933;
+}
+
+.staffmanager {
+	border-collapse:collapse;
+}
+.staffmanager th {
+	padding:3px 9px 3px 9px;
+	background:#ebebeb;
+	border-bottom:1px solid #cccccc;
+	text-align:left;
+}
+.staffmanager td {
+	padding:3px 9px 3px 9px;
+	border-bottom:1px solid #cccccc;
+}
+
+.prsn {
+	border-collapse:collapse;
+}
+.prsn th {
+	padding:3px 9px 3px 9px;
+	text-align:right;
+}
+.prsn td {
+	padding:3px 9px 3px 0;
+	text-align:left;
+	white-space:nowrap;
+}
+.prsn td.smalltext {
+	padding-top:0;
+	text-align:left;
+	vertical-align:top;
+}
+
+hr {
+	height:0;
+	border:0;
+	border-top:1px solid #cccccc;
+}
+
+form {
+	margin:0;
+}
+input, select, textarea {
+	font-family:Arial,Helvetica,sans-serif;
+	color:#003366;
+}
+.noborder {
+	border:1px solid #ffffff;
+}
+.border {
+	border:1px solid #cccccc;
+}
+
+ul {
+	list-style-type:square;
+}
+
+a {
+/*	text-decoration:none;*/
+}
+a:link {
+	color:#0000ff;
+}
+a:visited {
+	color:#9933cc;
+}
+a:hover {
+	color:#cc3300;
+	text-decoration:underline;
+}
+a:active {
+	color:#cc9933;
+}
+
+.smalltext {
+	font-size:11px;
+	color:#666666;
+	line-height:normal;
+}
+

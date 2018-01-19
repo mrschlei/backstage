@@ -1,0 +1,180 @@
+<div class="view view-its-project-status-thing view-id-its_project_status_thing view-display-id-default view-dom-id- contextual-links-region">
+      <div class="contextual-links-wrapper"><ul class="contextual-links"><li class="views-ui-edit first last"><a href="/admin/structure/views/view/its_project_status_thing/edit/default?destination=batch%3Fid%3D572%26op%3Ddo">Edit view</a></li>
+</ul></div>      <div class="view-header">
+      <p>The project list contains the current work in progress <strong><a href="http://its.umich.edu/about/projects">grouped by priority project</a></strong>. For more information about the projects, contact the project manager.</p>
+<h2 id="dontremovethisidplease">September 2017</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <h3>Cloud Learning, Scoping and Exploration</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>DART - Move DART Non-Production to Azure</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Yellow">Yellow</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall project status is YELLOW and the trend is flat. The DART non-prod to Azure project is in an initial phase of discovery and learning. The team is working to gather requirements and to better understand project risks and dependencies. Project schedule and milestones are being drafted and the project scope is still in the process of being defined.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">07/20/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-01-05T00:00:00-05:00">01/05/2018</span>
+<br /><strong>Project Manager:</strong> Kimberly Jacobson
+<br /><strong>Project Sponsor:</strong> Jim Behm</div>  </div>  </div>
+  
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>MCloud Expansion</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Yellow">Yellow</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall status of the Cloud Expansion project is yellow.  Below are the current barriers: </p>
+<p>1. We are still determining a direction on either forcing or opting in for DUO. This has impacts to ancillary systems and users who traditionally are not forced to use DUO.</p>
+<p>2. We will need at least a two month lead out for communications to all Office 365 users as their log in experience will change when we enable Shib and move to Web Login.</p>
+<p>3. We continue to run into resource issues with Michigan Medicine but continue down the path of incorporating their process into our provisioning of accounts for Michigan Medicine researchers.</p>
+<p>4. We do not have a signed contract with Google Cloud Platform.</p>
+<p>We have rolled out version 2 for AWS (Amazon Web Servers) which now includes pre-configured security settings, advanced reporting and integration with web login and shibboleth.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">05/01/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-11-27T00:00:00-05:00">11/27/2017</span>
+<br /><strong>Project Manager:</strong> Mandie M Chapman
+<br /><strong>Project Sponsor:</strong> Andy Palms</div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>Transition storage to Hybrid Premises</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Cloud Pools are enabled in Isilon and the team has completed needed testing with Microsoft&#039;s Azure. We are still waiting for the Business Association Agreement (BAA) to be executed with Amazon Web Services (AWS), as it would be our preferred cloud target. We plan to begin sending older files from MiStorage to the cloud in the month of September. There is no firm schedule as we are learning as we go, and we don&#039;t want to impact production users.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">09/25/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-10-16T00:00:00-04:00">10/16/2017</span>
+<br /><strong>Project Manager:</strong> Eric Lakin
+<br /><strong>Project Sponsor:</strong> Andy Palms</div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>Web Platform Service</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Transition Web Hosting to Hybrid Premises has started. The project team is working on a Project Charge document to define the deliverables and setting up Project Place to manage the project.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">08/28/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-15T00:00:00-04:00">06/15/2018</span>
+<br /><strong>Project Manager:</strong> Paul Marker
+<br /><strong>Project Sponsor:</strong> Andy Palms</div>  </div>  </div>
+  <h3>Enterprise IAM</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>EIAM: Enterprise Identity &amp; Access Mgmt Program</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Yellow">Yellow</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall EIAM Program status is Yellow due to the delayed timeline on the Roles and Access Management Project (RAMP). Delays in RAMP schedule will impact the timely completion of Phase I of the program. The Program team is working with ITS and HITS leadership to facilitate decisions regarding Roles and Access Management preferred vendor and deployment approach. A decision is expected in early October and contract negotiations will be subsequently delayed. The impact to pilots is unclear at this time and pilots may need to extend beyond the current program timeline. In the meantime, the Program Co-directors have started work on refreshing the EIAM roadmap and developing an investment proposal for FY19 and beyond.</p>
+<p>The rest of the active projects continue to make good progress. The Social Login project successfully deployed identity proofing and account linking functionality for the Alumni Association pilot. The Uniqname project team is working on technical design for the various options and is getting ready to seek input on impact to the academic campuses and Michigan Medicine. The Identity Assurance project continues campus and Michigan Medicine interviews, and the Security Zones project team is working on a project charge. </p>
+<p>Key activities for next month are releasing Wave 2 Account Lifecycle Optimization improvements, socializing a RAMP recommendation with ITS and HITS leadership, and piloting Social Login with the HathiTrust Digital Library.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">10/12/2015</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-28T00:00:00-04:00">06/28/2018</span>
+<br /><strong>Project Manager:</strong> Svetla Sytch
+<br /><strong>Project Sponsor:</strong> Sol Bermann</div>  </div>  </div>
+  <h3>General</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>A La Carte Service Creation and Implementations</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The project plan has been created and the overall status of the project is Green. Currently working on creating Service Level Agreements (SLA)for all seven A La Carte Services. The request for a new Mprint Platform as a Service has been requested in ServiceLink. The request for the other services will be requested as the Service Level Expectations are created. The Service owner is currently working with Office of Financial Analysis (OFA) to finalize the rates for the service.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">07/17/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-11-13T00:00:00-05:00">11/13/2017</span>
+<br /><strong>Project Manager:</strong> Paul Marker
+<br /><strong>Project Sponsor:</strong> Bob Jones</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>Campus Wide WiFi Upgrade</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>To date, wireless upgrades have been completed in buildings totaling over 10.2M sf (out of ~15.5 total sf). This represents 64% of the upgrades completed. The team has work underway in an additional 11.9% of buildings.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">06/03/2015</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-03T00:00:00-04:00">08/03/2018</span>
+<br /><strong>Project Manager:</strong> Leslie Williamson
+<br /><strong>Project Sponsor:</strong> Andy Palms</div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>Develop CUI Compliance Strategy</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall status of the project is Green. The draft rule report on CUI interpretation from the FAR (Federal Acquisition Regulations) has been extended from 8/30/17 to 9/13/17. The Controlled Unclassified Implementation (CUI) working group continues to meet on regulation interpretation and strategy. The review committee is evaluating 4 proposals from companies to support the CUI Consulting Services RFP. Yottabyte ARC-TS is working to complete remediation outlined in the May risk treatment plan intended to provide a roadmap towards compliance with CUI requirements. Security program planning is in progress with Information Assurance around policy, procedures and training.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">05/01/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-02-28T00:00:00-05:00">02/28/2018</span>
+<br /><strong>Project Manager:</strong> Michael Meister
+<br /><strong>Project Sponsor:</strong> Andy Palms</div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>FY1712: Next Gen Security Architecture PH1 &amp; PH2</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall status of the project is Green. The NGFW (Next Generation Firewall) pilot is coming to a close with minimal issues encountered. SIEM (Security Information and Event Management) SPLUNK integrations between ITS and Michigan Medicine are complete. The NFAT (Netflow Analysis Tool) professional services is complete with outstanding issues escalated with the vendor. The physical vault servers have been received from the vendor to support the next phase of the CyberArk PAM (Privileged Access Management) professional services. Negotiations with SentinelOne continue as the preferred vendor for EPP Endpoint Protection.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">07/05/2016</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-04-12T00:00:00-04:00">04/12/2018</span>
+<br /><strong>Project Manager:</strong> Michael Meister
+<br /><strong>Project Sponsor:</strong> Sol Bermann</div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>ITS Systems Data Center Relocation</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall status of the ITS Systems Data Center Relocation project is Green. The project continues to move through the planning phase. The project budget has been approved, however, the project is awaiting the final budget letter. The project is meeting with ITS purchasing to restart MOUs (memorandum of understanding) negotiations with HITS (Health Information Technology Services). A steering committee, shared with Cloud Learning, Scoping and Exploration and Systems Resilience &amp; Disaster Avoidance Initiative, has been approved. Work to organize the steering committee is underway. Activities to meet with Service Owners and System Support Managers are underway to understand and capture ITS plans for what will be moving to the NCDC data center.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">03/06/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-12-24T00:00:00-05:00">12/24/2018</span>
+<br /><strong>Project Manager:</strong> Jeffrey J Castle
+<br /><strong>Project Sponsor:</strong> Andy Palms</div>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>PeopleSoft Campus Solutions 9.2 Upgrade</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall status of the project is Green. The Upgrade project received the finance letter for capital funding and tasks are underway way to distribute accordingly. The Fit Gap phase is complete and resources are now working on the development phase and creating test plans.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-01T00:00:00-04:00">03/06/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-14T00:00:00-04:00">09/14/2018</span>
+<br /><strong>Project Manager:</strong> Ann Tuttle
+<br /><strong>Project Sponsor:</strong> Jim Behm</div>  </div>  </div>
+  <h3>Research Computing Initiative</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>&quot;Big House&quot; [Flux Replacement / HPC]</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall status of the project is Green. The team has reviewed preliminary requirements documentation and completed initial specifications for the new cluster. These specs will be used for an RFP which is expected to be submitted by early October. The team has already connected with ITS procurement in preparation for this RFP effort. Detailed planning of the project is in progress and will complete by late September.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">09/25/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-29T00:00:00-04:00">06/29/2018</span>
+<br /><strong>Project Manager:</strong> Jennifer Burch
+<br /><strong>Project Sponsor:</strong> Brock Palen</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>Yottabyte Research Cloud (YBRC)</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall project status of the project is Green. The team is currently reviewing the risk assessment for both HIPAA and CUI compliance. The team has also been working with the Identity and Access Management Team to implement OpenID Connect in support of the CUI service. This tool is expected to have further use in the IAM portfolio of capabilities with future cloud services. A HIPAA compliant service is on track to deliver by the first of October and a CUI compliant service is on track to deliver end of December.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">09/25/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-29T00:00:00-04:00">06/29/2018</span>
+<br /><strong>Project Manager:</strong> Jennifer Burch
+<br /><strong>Project Sponsor:</strong> Brock Palen</div>  </div>  </div>
+  <h3>Systems Resilience &amp; Disaster Avoidance Initiative</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>Develop sys continuity plans for critical infra</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall status of the project is Green. The first chalk talk to define the as-is architecture on 8/30/17. A Steering Committee was identified that will include review of the Systems Resiliency &amp; Disaster Avoidance (SRDA) initiative as well as the Cloud and Data Center Relocation projects.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">07/10/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-08T00:00:00-04:00">06/08/2018</span>
+<br /><strong>Project Manager:</strong> Michael Bennett
+<br /><strong>Project Sponsor:</strong> Andy Palms</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h4>Uniqname Resilience</h4></span>  </div>  
+  <div class="views-field views-field-field-status">        <div class="field-content"><p><strong>Status:</strong> <span class="Green">Green</span></p></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The overall Uniqname Resiliency Project status is Green. The project held its kick-off on August 18th. Teams members from Identity Management, Storage, Shared Support, Web Support, and PMO worked together to develop the initial set of story cards for the project. Work currently in progress is focused on gathering current state of systems providing Uniqname Service (UNS) and the supporting AFS functionality and performing outreach within ITS and campus units (like UM-Flint).</p>
+</div>  </div>  
+  <div class="views-field views-field-field-project-sponsor">        <div class="field-content"><strong>Start Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-09-18T00:00:00-04:00">08/08/2017</span>
+<br /><strong>Finish Date</strong>: <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-02-28T00:00:00-05:00">02/28/2018</span>
+<br /><strong>Project Manager:</strong> Jeffrey J Castle
+<br /><strong>Project Sponsor:</strong> Andy Palms</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
