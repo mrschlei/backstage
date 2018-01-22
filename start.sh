@@ -22,6 +22,7 @@ ln -sf /secrets/ssl/its-backstage.openshift.dsc.umich.edu.key /etc/ssl/private/i
 ## Rehash command needs to be run before starting apache.
 c_rehash /etc/ssl/certs
 
+a2enmod authnz_ldap
 a2enmod ssl
 a2enmod include
 a2ensite default-ssl 
