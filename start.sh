@@ -10,8 +10,11 @@ ln -sf /secrets/apache2/default-ssl.conf /etc/apache2/sites-available/default-ss
 ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
 
 # Varnish config files
-ln -sf /secrets/varnish/varnish /etc/default/varnish
-ln -sf /secrets/varnish/default.vlc /etc/varnish/default.vlc
+#ln -sf /secrets/varnish/varnish /etc/default/varnish
+#ln -sf /secrets/varnish/default.vlc /etc/varnish/default.vlc
+
+ln -sf /secrets/apache2/varnish /etc/default/varnish
+ln -sf /secrets/apache2/default.vlc /etc/varnish/default.vlc
 
 # app secrets
 ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
