@@ -11,7 +11,7 @@ ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
 
 # Varnish config files
 ln -sf /secrets/varnish/varnish /etc/default/varnish
-ln -sf /secrets/varnish/default.vlc /etc/default/varnish
+ln -sf /secrets/varnish/default.vlc /etc/varnish/default.vlc
 
 # app secrets
 ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
