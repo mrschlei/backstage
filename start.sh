@@ -4,10 +4,14 @@
 ln -sf /dev/stdout /var/log/apache2/access_log
 ln -sf /dev/stderr /var/log/apache2/error_log
 
-# apache and virtual host secrets
+# Apache and virtual host secrets
 ln -sf /secrets/apache2/apache2.conf /etc/apache2/apache2.conf
 ln -sf /secrets/apache2/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
 ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
+
+# Varnish config files
+ln -sf /secrets/varnish/varnish /etc/default/varnish
+ln -sf /secrets/varnish/default.vlc /etc/default/varnish
 
 # app secrets
 ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
