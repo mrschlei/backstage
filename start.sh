@@ -15,6 +15,8 @@ ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
 
 ln -sf /secrets/apache2/varnish /etc/default/varnish
 ln -sf /secrets/apache2/default.vlc /etc/varnish/default.vlc
+# because systemd is installed
+cp /lib/systemd/system/varnishncsa.service /etc/systemd/system/varnishncsa.service
 
 # app secrets
 ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
