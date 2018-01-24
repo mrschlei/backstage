@@ -6,6 +6,7 @@ ln -sf /dev/stderr /var/log/apache2/error_log
 
 # Apache and virtual host secrets
 ln -sf /secrets/apache2/apache2.conf /etc/apache2/apache2.conf
+ln -sf /secrets/apache2/ports.conf /etc/apache2/ports.conf
 ln -sf /secrets/apache2/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
 ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
 
