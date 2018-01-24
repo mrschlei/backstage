@@ -18,7 +18,7 @@ ln -sf /secrets/apache2/varnish /etc/default/varnish
 ln -sf /secrets/apache2/varnish_init /etc/init.d/varnish
 ln -sf /secrets/apache2/default.vcl /etc/varnish/default.vcl
 # because systemd is installed
-#cp /lib/systemd/system/varnishncsa.service /etc/systemd/system/varnishncsa.service
+cp /lib/systemd/system/varnishncsa.service /etc/systemd/system/varnishncsa.service
 
 # app secrets
 ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
