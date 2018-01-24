@@ -10,16 +10,6 @@ ln -sf /secrets/apache2/ports.conf /etc/apache2/ports.conf
 ln -sf /secrets/apache2/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
 ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
 
-# Varnish config files
-#ln -sf /secrets/varnish/varnish /etc/default/varnish
-#ln -sf /secrets/varnish/default.vcl /etc/varnish/default.vcl
-
-ln -sf /secrets/apache2/varnish /etc/default/varnish
-ln -sf /secrets/apache2/varnish_init /etc/init.d/varnish
-ln -sf /secrets/apache2/default.vcl /etc/varnish/default.vcl
-# because systemd is installed
-cp /lib/systemd/system/varnishncsa.service /etc/systemd/system/varnishncsa.service
-
 # app secrets
 ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
 
@@ -33,7 +23,6 @@ ln -sf /secrets/ssl/its-backstage.openshift.dsc.umich.edu.key /etc/ssl/private/i
 ## Rehash command needs to be run before starting apache.
 c_rehash /etc/ssl/certs
 
-a2enmod authnz_ldap
 a2enmod ssl
 a2enmod include
 a2ensite default-ssl 
@@ -41,8 +30,5 @@ a2ensite default-ssl
 ## set SGID for www-data 
 chown -R www-data.www-data /var/www/html /var/cosign
 chmod -R 2775 /var/www/html /var/cosign
-
-## set perms for
-chown -R varnish.varnish /var/lib/varnish
 
 /usr/local/bin/apache2-foreground
