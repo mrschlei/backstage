@@ -12,11 +12,11 @@ ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
 
 # Varnish config files
 #ln -sf /secrets/varnish/varnish /etc/default/varnish
-#ln -sf /secrets/varnish/default.vlc /etc/varnish/default.vlc
+#ln -sf /secrets/varnish/default.vcl /etc/varnish/default.vcl
 
 ln -sf /secrets/apache2/varnish /etc/default/varnish
 ln -sf /secrets/apache2/varnish_init /etc/init.d/varnish
-ln -sf /secrets/apache2/default.vlc /etc/varnish/default.vlc
+ln -sf /secrets/apache2/default.vcl /etc/varnish/default.vcl
 # because systemd is installed
 #cp /lib/systemd/system/varnishncsa.service /etc/systemd/system/varnishncsa.service
 
