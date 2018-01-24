@@ -41,4 +41,7 @@ a2ensite default-ssl
 chown -R www-data.www-data /var/www/html /var/cosign
 chmod -R 2775 /var/www/html /var/cosign
 
+## set perms for
+chown -R varnish.varnish /var/lib/varnish
+
 /usr/local/bin/apache2-foreground
