@@ -13,6 +13,45 @@ ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
 # app secrets
 ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
 
+# app and php secrets, oci8 and Oracle instantclient
+ln -sf /secrets/php/php.ini /usr/local/etc/php/php.ini
+
+mkdir -p /usr/lib/oracle/12.2/client64
+ln -sf /secrets/app/oracle.sh /etc/profile.d/oracle.sh
+# instead of this..
+#/bin/sh /etc/profile.d/oracle.sh
+# do this:
+export ORACLE_HOME=/usr/lib/oracle/12.2/client64
+export PATH=$ORACLE_HOME/bin:$PATH
+export TNS_ADMIN=/etc/oracle
+
+ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
+#ln -sf /secrets/app/tnsnames.ora /usr/local/etc/php/conf.d/tnsnames.ora
+mkdir /etc/oracle
+ln -sf /secrets/app/tnsnames.ora /etc/oracle/tnsnames.ora
+
+mkdir -p /opt/oracle/instantclient_12_2/network/admin
+cd /opt/oracle			
+# instantclient packages are too large to be secret
+#ln /var/www/html/instantclient-basic-linux.x64-12.2.0.1.0.zip /opt/oracle
+mv /var/www/html/instantclient-basic-linux.x64-12.2.0.1.0.zip /opt/oracle
+unzip instantclient-basic-linux.x64-12.2.0.1.0.zip
+cd /opt/oracle/instantclient_12_2
+ln -s libclntsh.so.12.1 libclntsh.so
+ln -s libocci.so.12.1 libocci.so
+ln -s /opt/oracle/instantclient_12_2 /opt/oracle/instantclient
+#apt-get install libaio # do this in Dockerfile
+export LD_LIBRARY_PATH=/opt/oracle/instantclient:$LD_LIBRARY_PATH
+export PATH=/opt/oracle/instantclient:$PATH
+
+cd /opt/oracle
+mv /var/www/html/instantclient-sdk-linux.x64-12.2.0.1.0.zip /opt/oracle
+unzip instantclient-sdk-linux.x64-12.2.0.1.0.zip
+
+pecl channel-update pecl.php.net
+echo "instantclient,/opt/oracle/instantclient_12_2" | pecl install oci8 
+ln -sf /secrets/app/docker-php-ext-oci8.ini /usr/local/etc/php/conf.d/docker-php-ext-oci8.ini
+
 # SSL secrets
 ln -sf /secrets/ssl/USERTrustRSACertificationAuthority.pem /etc/ssl/certs/USERTrustRSACertificationAuthority.pem
 ln -sf /secrets/ssl/AddTrustExternalCARoot.pem /etc/ssl/certs/AddTrustExternalCARoot.pem
