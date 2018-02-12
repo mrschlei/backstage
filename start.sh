@@ -26,7 +26,6 @@ export PATH=$ORACLE_HOME/bin:$PATH
 export TNS_ADMIN=/etc/oracle
 
 ln -sf /secrets/app/settings.php /var/www/html/sites/default/settings.php
-#ln -sf /secrets/app/tnsnames.ora /usr/local/etc/php/conf.d/tnsnames.ora
 mkdir /etc/oracle
 ln -sf /secrets/app/tnsnames.ora /etc/oracle/tnsnames.ora
 
@@ -47,6 +46,9 @@ export PATH=/opt/oracle/instantclient:$PATH
 cd /opt/oracle
 mv /var/www/html/instantclient-sdk-linux.x64-12.2.0.1.0.zip /opt/oracle
 unzip instantclient-sdk-linux.x64-12.2.0.1.0.zip
+
+# why does this not work from Dockerfile
+apt-get install make
 
 pecl channel-update pecl.php.net
 echo "instantclient,/opt/oracle/instantclient_12_2" | pecl install oci8 
