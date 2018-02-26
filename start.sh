@@ -9,14 +9,10 @@ ln -sf /secrets/apache2/apache2.conf /etc/apache2/apache2.conf
 ln -sf /secrets/apache2/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
 ln -sf /secrets/apache2/cosign.conf /etc/apache2/mods-available/cosign.conf
 
+# local.start.sh will call site-specific start scripts
 if [ -f /secrets/app/local.start.sh ]
 then
   /bin/sh /secrets/app/local.start.sh
-fi
-
-if [ -f /secrets/oracle/oracle_client.start.sh ]
-then
-  /bin/sh /secrets/oracle/oracle_client.start.sh
 fi
 
 # SSL secrets
